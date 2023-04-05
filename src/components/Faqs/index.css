@@ -1,0 +1,50 @@
+.faqs-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  padding: 30px;
+}
+
+.faqs-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.faqs-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.faqs-card-heading {
+  color: #cb8805;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .faqs-card-heading {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .faqs-card-heading {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .faqs-card-heading {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .faqs-card-heading {
+    font-size: 40px;
+  }
+}
